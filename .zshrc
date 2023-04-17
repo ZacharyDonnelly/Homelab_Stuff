@@ -22,7 +22,7 @@ alias ll='ls -lah --color=auto'
 alias grep='grep --color=auto'
 alias wake1='~/bin/wakeonlan 00:11:32:C9:A1:13'
 alias wake2='~/bin/wakeonlan 90:09:D0:35:E4:98'
-alias heimdall='sudo docker run --name=heimdall -d -v /home/zach/docker/heimdall:/config -e PGID=1000>
+alias heimdall='sudo docker run --name=heimdall -d -v /home/zach/docker/heimdall:/config -e PGID=1000>'
 
 setopt histignorealldups sharehistory
 
